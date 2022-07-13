@@ -161,6 +161,22 @@ header .sidebar a:first-child span {
     width: 220px;
 }
 
+.product__item button {
+    width: 90%;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #3cb878;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.product__item button:hover {
+    background-color: #34a169;
+}
+
 .introduce {
     width: 20%;
     display: flex;
@@ -192,7 +208,7 @@ header .sidebar a:first-child span {
 }
 
 .product__item:hover img {
-    margin-top: -2px;
+    transform: translateY(-2px);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -205,7 +221,7 @@ header .sidebar a:first-child span {
     flex-direction: column;
     position: absolute;
     top: 0;
-    right: 12px;
+    right: 20px;
     display: none;
 }
 
